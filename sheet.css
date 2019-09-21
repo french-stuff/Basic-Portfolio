@@ -21,6 +21,9 @@ a:hover {
     color: orange;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 .link {
     font-size: 15px;
@@ -36,26 +39,50 @@ a:hover {
     background: white;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 .main {
     background-color: white;
     box-sizing: border-box;
-    color:grey;
-    float: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
+    color: black;
+    width: 801px;
+    margin-left: 150px;
+    height: 400px;
+    margin-top: 70px;
+    
 }
+    
+   
 
 body {
-    background: lightgray;
+    background: lightgrey;
 }
 
+h1 {
+    color: teal;
+    margin-left: 150px;
+    width: 20%;
+    float: left;
+    background-color: white;
+    width: 783px;
+    height: 50px;
+    padding-left: 18px;
+    padding-top: 30px;
+    border-bottom: 1px solid grey;
 
+    
 
-p {
-    line-height: 25px;
 }
+
+.form {
+    padding-left: 20px;
+    padding-top: 60px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    margin-right: 600px;
+}
+    
+input {
+    width: 350%;
+    padding: 5px 20px;
+    margin: 8px 0;
+  }
+
